@@ -159,7 +159,7 @@ h2 {
 }
 
 .contact button {
-  background-color: #ffd700;
+  background-color: #fcd602;
   color: #333;
   padding: 0.75rem;
   border: none;
@@ -170,5 +170,5 @@ h2 {
 }
 
 .contact button:hover {
-  background-color: #2093c0;
+  background-color: #ffb700;
 }
