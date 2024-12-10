@@ -12,6 +12,7 @@ body {
   color: #000000;
   line-height: 1.6;
   scroll-behavior: smooth;
+  background-color: antiquewhite;
 }
 
 /* Navbar */
@@ -19,7 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background-color: #333;
+  background-color: #192d36;
   color: #181616;
   position: fixed;
   width: 100%;
@@ -40,20 +41,20 @@ body {
 }
 
 .nav-links a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .nav-links a:hover {
-  color: #f3a410;
+  color: peachpuff;
 }
 
 /* Hero Section */
 .hero {
-  background: url("images/WhatsApp Image 2024-11-13 at 15.10.15_3cd6005e.jpg")
+  background: url("images/WhatsApp Image 2024-11-18 at 12.42.14_5fbb95e2.jpg")
     no-repeat center center/cover;
-  color: #0e0d0d;
+  color: #ffffff;
   text-align: center;
   padding: 6rem 2rem;
   min-height: 100vh;
@@ -75,8 +76,8 @@ body {
 
 .hero .button {
   padding: 0.5rem 1.5rem;
-  background-color: #ffffff;
-  color: #333;
+  background-color: #183946;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -84,7 +85,13 @@ body {
 }
 
 .hero .button:hover {
-  background-color: #ffb700;
+  background-color: peachpuff;
+}
+.images {
+  display: flex;
+  grid-template-columns: 5rem;
+  justify-content: center;
+  gap: 30px;
 }
 
 /* Section Styling */
@@ -102,7 +109,7 @@ section {
 
 h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: #192d36;
   margin-bottom: 1rem;
 }
 
@@ -114,7 +121,7 @@ h2 {
 }
 
 .service-card {
-  background-color: #ffffff;
+  background-color: peachpuff;
   padding: 2rem;
   max-width: 300px;
   border-radius: 5px;
@@ -133,6 +140,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 2rem;
+  background-color: antiquewhite;
 }
 
 .gallery-images img {
@@ -170,5 +178,5 @@ h2 {
 }
 
 .contact button:hover {
-  background-color: #ffb700;
+  background-color: #1b1c29;
 }
